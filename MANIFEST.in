@@ -1,2 +1,2 @@
-include PVcharacterization_Utils/Pvcharacterization.yaml
+include PVcharacterization_Utils/flashtest/Pvcharacterization.yaml
 include LICENSE

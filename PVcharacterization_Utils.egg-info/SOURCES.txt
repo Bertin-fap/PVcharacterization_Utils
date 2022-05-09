@@ -14,6 +14,7 @@ PVcharacterization_Utils/flashtest/PVcharacterization_flashtest.py
 PVcharacterization_Utils/flashtest/PVcharacterization_plot.py
 PVcharacterization_Utils/flashtest/PVcharacterization_sys.py
 PVcharacterization_Utils/flashtest/PVcharacterization_utils.py
+PVcharacterization_Utils/flashtest/Pvcharacterization.yaml
 PVcharacterization_Utils/flashtest/__init__.py
 PVcharacterization_Utils/flashtest/config.py
 PVcharacterization_Utils/pl/PVcharacterization_image.py
