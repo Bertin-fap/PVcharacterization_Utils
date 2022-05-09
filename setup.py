@@ -34,5 +34,10 @@ setup(name='PVcharacterization_Utils',
       author= 'PV_team',
       author_email= 'francois.bertin7@wanadoo.fr',
       url= 'https://github.com/Bertin-fap/PVcharacterization',
-      packages=find_packages(),
+      packages=["pl", "flashtest"],
+      package_dir={
+        "": ".",
+        "pl": "./PVcharacterization_Utils/pl",
+        "flashtest": "./PVcharacterization_Utils/flashtest",
+                  },
       )
