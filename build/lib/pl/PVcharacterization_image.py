@@ -138,8 +138,6 @@ def crop_image(file):
     import numpy as np
     from skimage import filters
  
-    #Internal import 
-    import PVcharacterization_Utils as pv
 
     SAFETY_WIDTH = 10 # The width of the top image is set to the coputed with - SAFETY_WIDTH
     BORNE_SUP = np.Inf
@@ -195,7 +193,7 @@ def crop_image(file):
 
         return img_crop, modale_width
 
-    electrolum = pv.read_electolum_file(file, pack=False)
+    electrolum = read_electolum_file(file, pack=False)
 
     images_crop = []
     list_borne_inf =[]
