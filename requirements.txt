@@ -5,5 +5,5 @@ plotly
 PyYAML
 screeninfo
 seaborn
-skimage
+scikit-image
 tkcalendar
