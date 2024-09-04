@@ -1,6 +1,7 @@
 __all__ = ['apply_savgol_filter',
            'convert',
            'crop_image',
+           'crop_image_new',
            'hough_transform',
            'icrop_image_basic',
            'image_padding',
@@ -154,7 +155,7 @@ def crop_image(file):
     """
     
     SAFETY_WIDTH = 10 # The width of the top image is set to the coputed with - SAFETY_WIDTH
-    BORNE_SUP = np.Inf
+    BORNE_SUP = np.inf
     N_SIGMA = 5       # Number of RMS used to discriminate outlier
     
 
@@ -408,7 +409,7 @@ def Otsu_tresholding(im, Ostu_corr=1):
     im_bin = np.where((convert(im) < thresh_otsu / Ostu_corr), 1, 0)
     return im_bin  
 
-def crop_image(image,autocrop_para):
+def crop_image_new(image,autocrop_para):
     
     def limit_crop_x_y(im_bin,axis):
         y = np.array([1 if x >= im_bin.shape[axis]*0.99 else 0 for x in im_bin.sum(axis=axis)])
