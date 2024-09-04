@@ -6,4 +6,5 @@ PyYAML
 screeninfo
 seaborn
 scikit-image
+scipy
 tkcalendar
